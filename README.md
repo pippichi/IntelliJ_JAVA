@@ -1,5 +1,4 @@
 # IntelliJ_JAVA
-Java入门
 
 GitHub操作代码:
 1、cd进入目录
