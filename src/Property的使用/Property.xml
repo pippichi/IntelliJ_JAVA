@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>qyf</comment>
+<entry key="driver">html52</entry>
+<entry key="driver2">html5</entry>
+<entry key="driver3">html54</entry>
+<entry key="driver1">html15</entry>
+</properties>

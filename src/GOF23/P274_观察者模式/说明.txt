@@ -1,0 +1,1 @@
+JAVASE提供了java.util.Observable和java.util.Observer来实现观察者模式
