@@ -9,5 +9,6 @@ GitHub操作代码:
 6、查看最近日志: git log
 7、版本回退操作: 回退一个: git reset -hard HEAD^   回退两个: git reset -hard HEAD^^    回退多个: git reset -hard HEAD~100
 8、(第一次连接)远程仓库的提交: git remote add origin 复制的地址
+    代码合并: git pull --rebase origin master
     仓库关联: git push -u origin master
 9、(第二次以后)远程仓库的提交: git push
