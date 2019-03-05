@@ -21,7 +21,7 @@ public class Demo03 {
             SxtTable st = (SxtTable)clazz.getAnnotation(SxtTable.class);
             System.out.println(st.value());
 
-            Field fx = clazz.getDeclaredField("id");
+            Field fx = clazz.getDeclaredField("studentName");
             SxtField f = fx.getAnnotation(SxtField.class);
             System.out.println(f.columnName()+"  "+f.type()+"  "+f.length());
         } catch (ClassNotFoundException e) {

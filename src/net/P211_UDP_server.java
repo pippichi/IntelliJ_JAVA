@@ -26,8 +26,8 @@ public class P211_UDP_server {
         DatagramPacket packet = new DatagramPacket(container,container.length);
         //4、接受数据
         server.receive(packet);
-        //5、分析数据
         byte[] data = packet.getData();
+        //5、分析数据
         int len = packet.getLength();
         System.out.println(new String(data,0,len));
         //6、释放

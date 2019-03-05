@@ -1,7 +1,5 @@
 package HashSet;
 
-import HashMap_HashTable.MyHashMap;
-
 import java.util.HashMap;
 
 public class MyHashSet {
@@ -18,4 +16,5 @@ public class MyHashSet {
     public int getSize(){
         return map.size();
     }
+
 }

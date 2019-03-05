@@ -40,6 +40,7 @@ public class CAS算法 {
         for (int i = 0; i < 10; i++) {
             new Thread(ad).start();
         }
+
     }
 }
 class AtomicDemo implements Runnable{
@@ -98,3 +99,9 @@ class AtomicDemo implements Runnable{
 //      Thread-0:8
 //      Thread-9:2
 //      Thread-5:0   重复
+
+//compareAndSet方法:
+//  do{
+//    oldValue = largest.get();
+//    newValue = Math.max(oldValue,observed);
+//    }while(!largest.compareAndSet(oldValue,newValue));

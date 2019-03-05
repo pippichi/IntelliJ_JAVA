@@ -23,5 +23,4 @@ public class P229_parse {
         List<P229> persons = handler.getPersons();
         persons.forEach(x-> System.out.println(x.getName()+"-->"+x.getAge()));
     }
-
 }
